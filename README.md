@@ -1,1 +1,3 @@
-# my-configs
+# myconfigs
+---
+my config files under linux
