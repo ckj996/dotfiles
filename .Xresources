@@ -1,0 +1,45 @@
+URxvt.font: xft:Source Code Pro:size=11, xft:WenQuanYi Zen Hei:size=11
+URxvt.boldFont: xft:Source Code Pro:Bold:size=11, xft:WenQuanYi Zen Hei:Bold:size=11
+
+URxvt.inputMethod: fcitx
+
+URxvt.depth:32
+
+URxvt.scrollBar: True
+URxvt.scrollBar_right: True
+URxvt.scrollBar_floating: True
+URxvt.scrollstyle: plain
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+
+URxvt.background:        #000000
+URxvt.foreground:        #cccccc
+! black
+URxvt.color0:           #353535
+URxvt.color8:           #666666
+! red
+URxvt.color1:           #d14646
+URxvt.color9:           #ee6363
+! green
+URxvt.color2:           #7c984c
+URxvt.color10:          #9acd32
+! brown/yellow
+URxvt.color3:           #daa520
+URxvt.color11:          #ffc125
+! blue
+URxvt.color4:           #6f99b4
+URxvt.color12:          #7c96b0
+! magenta
+URxvt.color5:           #993b99
+URxvt.color13:          #da4eda
+! cyan
+URxvt.color6:           #a7a15e
+URxvt.color14:          #f0e68c
+! white
+URxvt.color7:           #bbbbbb
+URxvt.color15:          #eeeeee
