@@ -1,0 +1,11 @@
+PDF: mupdf + zathura
+Image Viewer: feh
+Wallpaper: feh --bg-fill filename
+Music Player: cmus
+Video Player: smplayer
+File: ranger + w3m(img display)
+Web browser: Firefox + Vimperator / Chromium
+Editor: vim + jellybean / emacs
+Window Manager: i3
+Screenshot: scrot
+Notifications: dunst
