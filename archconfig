@@ -1,13 +1,16 @@
-PDF: mupdf + zathura
-Image Viewer: feh
-Wallpaper: feh --bg-fill filename
+Distribution: archlinux
+Window Manager: i3
+Shell: zsh + grml-zsh-config
+Terminal: urxvt
+File: ranger + w3m(img display)
+Web browser: Firefox + Vimperator + FoxyProxy
+Editor: vim + jellybean / emacs
 Music Player: cmus
 Video Player: smplayer
-File: ranger + w3m(img display)
-Web browser: Firefox + Vimperator + FoxyProxy / Chromium
-Editor: vim + jellybean / emacs
-Window Manager: i3
-Screenshot: scrot
-Notifications: dunst
+Image Viewer: feh
+Wallpaper: feh --bg-fill filename
+PDF: mupdf + zathura
 Word: abiword
 Excel: gnumeric
+Screenshot: scrot
+Notifications: dunst
