@@ -4,8 +4,11 @@
 (package-initialize)
 
 (setq-default indent-tabs-mode nil)
+(show-paren-mode 1)
+(setq show-paren-delay 0)
 (setq shell-file-name "/bin/bash")
 (setq c-default-style "linux")
+(set-variable (quote scheme-program-name) "guile")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -14,7 +17,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (org org-plus-contrib smex evil yasnippet auto-complete))))
+    (seti-theme autopair org org-plus-contrib smex evil yasnippet auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -45,3 +48,11 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; old M-x
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+;; enable autopair
+(require 'autopair)
+(autopair-global-mode)
+
+;; enable seti-theme
+(require 'seti-theme)
+(load-theme 'seti t)
