@@ -8,7 +8,8 @@
 (setq show-paren-delay 0)
 (setq shell-file-name "/bin/bash")
 (setq c-default-style "linux")
-(set-variable (quote scheme-program-name) "guile")
+; (set-variable (quote scheme-program-name) "guile")
+(set-variable (quote scheme-program-name) "mit-scheme")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -51,7 +52,7 @@
 
 ;; enable autopair
 (require 'autopair)
-(autopair-global-mode)
+(autopair-global-mode 1)
 
 ;; enable seti-theme
 (require 'seti-theme)

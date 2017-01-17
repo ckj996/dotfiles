@@ -209,5 +209,5 @@ bar {
         status_command i3status
 }
 
-exec --no-startup-id feh --bg-max ~/Pictures/wallpaper.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper.jpg
 exec --no-startup-id fcitx
