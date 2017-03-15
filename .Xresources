@@ -17,6 +17,10 @@ URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.keysym.M-Escape:      perl:keyboard-select:activate
 URxvt.keysym.M-s:           perl:keyboard-select:search
 
+! transparent
+URxvt.transparent: true
+URxvt.shading: 10
+
 URxvt.background:        #0c0c0c
 URxvt.foreground:        #cccccc
 ! black
