@@ -28,11 +28,11 @@ command=/usr/lib/i3blocks/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
-[brightness]
-label=
-command=xbacklight | sed 's/\..*$/%/'
-interval=once
-signal=9
+#[brightness]
+#label=
+#command=xbacklight | sed 's/\..*$/%/'
+#interval=once
+#signal=9
 
 # Volume indicator
 #

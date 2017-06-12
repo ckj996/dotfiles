@@ -176,13 +176,13 @@ bindsym $mod+x mode "$mode_display"
 
 bindsym $mod+Print exec --no-startup-id scrot
 
-bindsym XF86MonBrightnessUp exec --no-startup-id \
-                xbacklight -inc 5                \
-                && pkill -SIGRTMIN+9 i3blocks
+#bindsym XF86MonBrightnessUp exec --no-startup-id \
+#                xbacklight -inc 5                \
+#                && pkill -SIGRTMIN+9 i3blocks
 
-bindsym XF86MonBrightnessDown exec --no-startup-id \
-                xbacklight -dec 5                  \
-                && pkill -SIGRTMIN+9 i3blocks
+#bindsym XF86MonBrightnessDown exec --no-startup-id \
+#                xbacklight -dec 5                  \
+#                && pkill -SIGRTMIN+9 i3blocks
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id \
                 pactl set-sink-mute 0 false       \
