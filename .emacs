@@ -34,13 +34,13 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
-;; enable evil
-(require 'evil)
-(evil-mode 1)
-;; use emacs-state in insert-state
-(setcdr evil-insert-state-map nil)
-;; ESC to switch back normal-state
-(define-key evil-insert-state-map [escape] 'evil-normal-state)
+;;; enable evil
+;(require 'evil)
+;(evil-mode 1)
+;;; use emacs-state in insert-state
+;(setcdr evil-insert-state-map nil)
+;;; ESC to switch back normal-state
+;(define-key evil-insert-state-map [escape] 'evil-normal-state)
 
 ;; enable smex
 (require 'smex)
@@ -57,3 +57,7 @@
 ;; enable seti-theme
 (require 'seti-theme)
 (load-theme 'seti t)
+
+;; inferior-haskell-mode
+(require 'inf-haskell)
+(add-hook 'haskell-mode-hook 'inf-haskell-mode)
