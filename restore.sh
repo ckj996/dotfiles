@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp ./.vimrc ~/.emacs ~/.i3exit ~/.Xresources ~/
+cp ./.vimrc ./.emacs ./.i3exit ./.Xresources ~/
 
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/i3status
