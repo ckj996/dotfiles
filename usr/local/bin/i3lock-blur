@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Dependencies:
+# imagemagick
+# i3lock
+# scrot (optional but default)
+
+IMAGE=/tmp/i3lock.png
+SCREENSHOT="scrot $IMAGE"
+
+# Get the screenshot, pixelate and lock the screen with it
+$SCREENSHOT
+convert $IMAGE -interpolate nearest -virtual-pixel mirror -spread 5 $IMAGE
+i3lock -i $IMAGE
+rm $IMAGE
