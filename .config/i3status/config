@@ -6,39 +6,30 @@
 # ß
 # If the above line is not correctly displayed, fix your editor first!
 
-general {
-        colors = true
-        color_good = "#9ACD32"
-        color_degraded = "#FFC125"
-        color_bad = "#EE6363"
-        interval = 5
-}
-
 order += "disk /"
+order += "volume master"
 order += "wireless _first_"
 order += "ethernet _first_"
-order += "volume master"
-order += "battery 0"
+order += "battery all"
 order += "load"
 order += "tztime local"
 
 wireless _first_ {
-        format_up = " %quality %essid"
+        format_up = " %essid"
         format_down = " down"
 }
 
 ethernet _first_ {
-        # if you use %speed, i3status requires root privileges
-        format_up = " %speed"
+        format_up = " %ip"
         format_down = " down"
 }
 
-battery 0 {
-        format = " %status %percentage"
+battery all {
+        format = " %status %percentage %remaining"
 }
 
 tztime local {
-        format = " %b %d %H:%M"
+        format = " %H:%M %b %d %a"
 }
 
 load {
@@ -53,4 +44,12 @@ volume master {
         format = " %volume"
         format_muted = " (%volume)"
         device = "pulse"
+}
+
+general {
+        colors = true
+        color_good = "#9ACD32"
+        color_degraded = "#FFC125"
+        color_bad = "#EE6363"
+        interval = 20
 }
