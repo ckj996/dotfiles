@@ -225,3 +225,4 @@ bar {
 exec --no-startup-id feh --bg-fill ~/Pictures/mashiro.png
 exec --no-startup-id nm-applet
 #exec --no-startup-id xautolock -time 10 -locker i3lock-blur
+exec --no-startup-id compton -CGfb -D 5
