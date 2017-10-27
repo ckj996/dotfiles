@@ -16,12 +16,12 @@ order += "load"
 order += "tztime local"
 
 ipv6 {
-        format_up = " IPv6"
-        format_down = " down"
+        format_up = " %ip"
+        format_down = " IPv6 down"
 }
 
 wireless _first_ {
-        format_up = " %essid"
+        format_up = " %essid %ip"
         format_down = " down"
 }
 
