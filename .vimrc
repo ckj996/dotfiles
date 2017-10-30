@@ -28,5 +28,4 @@ set noexpandtab
 set nowrap
 
 set t_Co=256
-set term=screen-256color
 colorscheme jellybeans

@@ -1,18 +1,19 @@
 description | software
 --- | ---
-Distribution | debian
-Display Manager | lightdm
+Distribution | Parabola GNU/Linux-libre
+Display Manager | SLiM
 Window Manager | i3
-Shell | zsh + grml-zsh-config
-Terminal | urxvt
+Composite Manager | Compton
+Shell | Zsh + grml-zsh-config
+Terminal | Termite
 File Browser | ranger
-Web Browser | firefox + vimperator + foxyproxy
+Web Browser | Iceweasel + uBlock Origin + Vim Vixen + FoxyProxy
 Editor | vim + jellybean
 Music Player | cmus
 Video Player | mpv
 Image Viewer | feh
-Wallpaper | feh --bg-fill filename
-PDF | zathura
-Office | libreoffice
+Wallpaper | feh --bg-fill
+PDF | Zathura + MuPDF
+Office | LibreOffice
 Screenshot | scrot
-Notifications | dunst
+Notifications | Dunst

@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# Dependencies:
+# polkit
+
 lock() {
     i3lock-blur
 }
