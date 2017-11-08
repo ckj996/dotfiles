@@ -33,7 +33,7 @@ colorscheme jellybeans
 map <F1> <Esc>
 imap <F1> <Esc>
 
-autocmd BufNewFile,BufRead *.c, *.cc, *.cpp
+autocmd BufNewFile,BufRead *.c,*.cc,*.cpp
     \ set tabstop=8       |
     \ set softtabstop=8   |
     \ set shiftwidth=8    |
@@ -45,7 +45,7 @@ autocmd BufNewFile,BufRead *.py
     \ set shiftwidth=4    |
     \ set expandtab
 
-autocmd BufNewFile,BufRead *.js, *.html, *.css
+autocmd BufNewFile,BufRead *.js,*.html,*.css
     \ set tabstop=2       |
     \ set softtabstop=2   |
     \ set shiftwidth=2
